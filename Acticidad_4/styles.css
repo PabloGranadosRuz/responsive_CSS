@@ -1,0 +1,11 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width:760){
+    img{
+        width: 80%;
+        display: block;
+        margin-top: auto;
+    }
+}
