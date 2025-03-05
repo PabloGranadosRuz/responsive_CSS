@@ -1,0 +1,16 @@
+.mobile-only{
+    background-color: aquamarine;
+}
+.desktop-only{
+    background-color: rgb(221, 96, 96);
+}
+@media (min-width:768px){
+    .desktop-only{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .mobile-only{
+        display: none;
+    }
+}
