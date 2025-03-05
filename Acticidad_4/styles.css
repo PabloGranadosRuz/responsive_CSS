@@ -2,7 +2,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-@media (min-width:760px){
+@media (max-width:760px){
     img{
         width: 80%;
         display: block;
