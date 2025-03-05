@@ -1,0 +1,17 @@
+li {
+    list-style: none;
+    padding-right: 20px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media (min-width:600px){
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
