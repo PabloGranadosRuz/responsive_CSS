@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orientacion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+@media (orientation: landscape) {
+    #orientacion {
+        background-color: blue;
+    }
+
+    #contenedor {
+        background-color: lightblue;
+    }
+}
+
+@media (orientation: portrait) {
+    #orientacion {
+        background-color: green;
+    }
+
+    #contenedor {
+        background-color: lightgreen;
+    }
+}
